@@ -1,0 +1,39 @@
+/* Persistent bilingual identity: each cover remains visual, each project is now named. */
+.work-card .work-card-meta{
+  top:14px;
+  bottom:auto;
+  left:14px;
+  min-width:146px;
+  min-height:53px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  gap:4px;
+  padding:9px 12px;
+  border:1px solid rgba(255,255,255,.88);
+  border-radius:11px;
+  background:rgba(255,255,255,.90);
+  box-shadow:0 9px 21px rgba(33,49,72,.13);
+  backdrop-filter:blur(12px);
+  opacity:1;
+  transform:none;
+}
+.work-card .work-card-meta b{font-size:12px;line-height:1.05;letter-spacing:-.015em;color:#111b29}
+.work-card .work-card-meta small{font-size:11px;line-height:1;color:#526483;font-weight:650}
+.work-card.travel .work-card-meta{min-width:172px;top:17px;left:17px}
+.work-card:hover .work-card-meta,.work-card:focus .work-card-meta{opacity:1;transform:none}
+@media(max-width:640px){.work-card .work-card-meta{top:16px;left:16px;min-width:160px;transform:scale(1.34);transform-origin:top left}.work-card:hover .work-card-meta,.work-card:focus .work-card-meta{transform:scale(1.34)}}
+
+/* Rebuilt project artwork — each cover is purpose-made for its project, not a crop of the old reference board. */
+.work-card.pet{background-image:url("assets/paqi-pet-cover.webp")!important;background-size:cover!important;background-position:center 54%!important}
+.work-card.social{background-image:url("assets/chongqing-cover.webp")!important;background-size:cover!important;background-position:center 52%!important}
+.work-card.travel{background-image:url("assets/cat-kingdom-cover.webp")!important;background-size:cover!important;background-position:center 52%!important}
+.work-card.edu{background-image:url("assets/meet-joy-cover.webp")!important;background-size:cover!important;background-position:center 52%!important}
+.work-card.printer{background-image:url("assets/newyes-cover.webp")!important;background-size:cover!important;background-position:center 52%!important}
+.work-card .work-card-meta{background:transparent;border:0;box-shadow:none;backdrop-filter:none;padding:0;min-height:0;min-width:0;text-shadow:0 1px 12px rgba(255,255,255,.72)}
+.work-card .work-card-meta b{font-size:15px;line-height:1.05;color:#14202c;letter-spacing:-.035em}.work-card .work-card-meta small{font-size:11px;color:#3f536d;font-weight:750}
+.work-card.travel .work-card-meta{min-width:0}
+.work-card.social .work-card-meta,.work-card.printer .work-card-meta{text-shadow:0 2px 14px rgba(0,0,0,.5)}
+.work-card.social .work-card-meta b,.work-card.printer .work-card-meta b{color:#fff}
+.work-card.social .work-card-meta small,.work-card.printer .work-card-meta small{color:rgba(255,255,255,.84)}
+.work-card .work-card-meta,.work-card .work-card-index,.work-card::before{display:none!important}

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="920" viewBox="0 0 1400 920">
+  <rect width="1400" height="920" rx="40" fill="#F8FAFA"/>
+  <rect x="48" y="46" width="1304" height="828" rx="26" fill="#FFFFFF" stroke="#DCE7E4" stroke-width="2"/>
+  <text x="92" y="112" fill="#1A8578" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18" font-weight="700" letter-spacing="4">CHONGQING HANGOUT · DESIGN SYSTEM</text>
+  <text x="92" y="163" fill="#061717" font-family="Arial, Microsoft YaHei, sans-serif" font-size="48" font-weight="800">重庆约玩 / Visual Foundation</text>
+  <text x="92" y="196" fill="#66787A" font-family="Arial, Microsoft YaHei, sans-serif" font-size="18">A light, calm and friendly local social experience</text>
+  <rect x="1158" y="82" width="138" height="42" rx="21" fill="#E0EBE8"/>
+  <text x="1204" y="109" fill="#1A8578" font-family="Arial, sans-serif" font-size="16" font-weight="700">V 1.0</text>
+  <line x1="92" y1="238" x2="1308" y2="238" stroke="#DCE7E4" stroke-width="2"/>
+  <text x="92" y="286" fill="#66787A" font-family="Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="3">01 / COLOR</text>
+  <rect x="92" y="310" width="196" height="126" rx="18" fill="#061717"/><text x="110" y="362" fill="#FFF" font-family="Arial, sans-serif" font-size="21" font-weight="700">INK</text><text x="110" y="395" fill="#BFCBCB" font-family="Arial, sans-serif" font-size="17">#061717</text>
+  <rect x="306" y="310" width="196" height="126" rx="18" fill="#1A8578"/><text x="324" y="362" fill="#FFF" font-family="Arial, sans-serif" font-size="21" font-weight="700">BRAND</text><text x="324" y="395" fill="#DFF4F0" font-family="Arial, sans-serif" font-size="17">#1A8578</text>
+  <rect x="520" y="310" width="196" height="126" rx="18" fill="#17A166"/><text x="538" y="362" fill="#FFF" font-family="Arial, sans-serif" font-size="21" font-weight="700">ACTION</text><text x="538" y="395" fill="#D9F7E9" font-family="Arial, sans-serif" font-size="17">#17A166</text>
+  <rect x="734" y="310" width="196" height="126" rx="18" fill="#F5F7F7" stroke="#DCE7E4" stroke-width="2"/><text x="752" y="362" fill="#061717" font-family="Arial, sans-serif" font-size="21" font-weight="700">SURFACE</text><text x="752" y="395" fill="#66787A" font-family="Arial, sans-serif" font-size="17">#F5F7F7</text>
+  <rect x="948" y="310" width="196" height="126" rx="18" fill="#FF4024"/><text x="966" y="362" fill="#FFF" font-family="Arial, sans-serif" font-size="21" font-weight="700">ALERT</text><text x="966" y="395" fill="#FFE5DE" font-family="Arial, sans-serif" font-size="17">#FF4024</text>
+  <text x="92" y="500" fill="#66787A" font-family="Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="3">02 / TYPE SCALE</text>
+  <text x="92" y="565" fill="#061717" font-family="Arial, sans-serif" font-size="42" font-weight="800">Where to hang out today?</text>
+  <text x="92" y="598" fill="#061717" font-family="Arial, sans-serif" font-size="24" font-weight="700">Sunset Hike at Nanshan</text>
+  <text x="92" y="630" fill="#66787A" font-family="Arial, sans-serif" font-size="18">Search activities, places, or people...</text>
+  <text x="92" y="659" fill="#66787A" font-family="Arial, sans-serif" font-size="13">Caption / 10 · Inter · Regular, Semi Bold, Extra Bold</text>
+  <line x1="92" y1="687" x2="764" y2="687" stroke="#DCE7E4" stroke-width="2"/>
+  <text x="92" y="738" fill="#66787A" font-family="Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="3">03 / COMPONENTS</text>
+  <rect x="92" y="762" width="258" height="62" rx="31" fill="#1A8578"/><text x="153" y="801" fill="#FFF" font-family="Arial, sans-serif" font-size="18" font-weight="700">Join This Activity</text>
+  <rect x="372" y="762" width="310" height="62" rx="18" fill="#F5F7F7"/><circle cx="404" cy="793" r="19" fill="#E0B58F"/><text x="436" y="788" fill="#061717" font-family="Arial, sans-serif" font-size="15" font-weight="700">A Jie</text><text x="436" y="808" fill="#66787A" font-family="Arial, sans-serif" font-size="12">Hey, are you joining?</text><circle cx="651" cy="781" r="11" fill="#FF4024"/><text x="647" y="785" fill="#FFF" font-family="Arial, sans-serif" font-size="10" font-weight="700">2</text>
+  <text x="830" y="500" fill="#66787A" font-family="Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="3">04 / LAYOUT RULES</text>
+  <rect x="830" y="524" width="462" height="300" rx="20" fill="#F5F7F7"/>
+  <text x="864" y="572" fill="#061717" font-family="Arial, sans-serif" font-size="18" font-weight="700">Radius</text><text x="1110" y="572" fill="#66787A" font-family="Arial, sans-serif" font-size="18">16 / 20 / Full</text>
+  <line x1="864" y1="596" x2="1258" y2="596" stroke="#DCE7E4" stroke-width="2"/>
+  <text x="864" y="642" fill="#061717" font-family="Arial, sans-serif" font-size="18" font-weight="700">Spacing</text><text x="1110" y="642" fill="#66787A" font-family="Arial, sans-serif" font-size="18">8 / 12 / 16 / 24</text>
+  <line x1="864" y1="666" x2="1258" y2="666" stroke="#DCE7E4" stroke-width="2"/>
+  <text x="864" y="712" fill="#061717" font-family="Arial, sans-serif" font-size="18" font-weight="700">Elevation</text><text x="1110" y="712" fill="#66787A" font-family="Arial, sans-serif" font-size="18">Soft / 0 6 16</text>
+  <line x1="864" y1="736" x2="1258" y2="736" stroke="#DCE7E4" stroke-width="2"/>
+  <text x="864" y="781" fill="#061717" font-family="Arial, sans-serif" font-size="18" font-weight="700">Navigation</text><text x="1110" y="781" fill="#66787A" font-family="Arial, sans-serif" font-size="18">4 tabs + floating post</text>
+  <text x="92" y="855" fill="#9AABAB" font-family="Arial, Microsoft YaHei, sans-serif" font-size="13">Derived from 重庆约玩 · Messages / Chats screen</text>
+</svg>

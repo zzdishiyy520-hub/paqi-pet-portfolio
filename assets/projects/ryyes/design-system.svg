@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="920" viewBox="0 0 1400 920" fill="none">
+  <rect width="1400" height="920" rx="36" fill="#F5FCF8"/>
+  <rect x="38" y="38" width="1324" height="844" rx="28" fill="#FFFFFF" stroke="#D6EEE3" stroke-width="2"/>
+  <text x="82" y="94" fill="#15956D" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="800" letter-spacing="4">NEWYES / DESIGN SYSTEM</text>
+  <text x="82" y="150" fill="#101933" font-family="Inter, Arial, sans-serif" font-size="49" font-weight="800" letter-spacing="-2">Smart Pen · Visual Foundation</text>
+  <text x="82" y="184" fill="#5B756A" font-family="Inter, Arial, sans-serif" font-size="19">Derived from the 430 px mobile interface / 基于 430 px 移动端界面</text>
+  <line x1="82" y1="220" x2="1318" y2="220" stroke="#D6EEE3" stroke-width="2"/>
+
+  <text x="82" y="270" fill="#15956D" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="800" letter-spacing="3">01 / COLOR</text>
+  <g font-family="Inter, Arial, sans-serif">
+    <rect x="82" y="294" width="184" height="122" rx="18" fill="#101933"/>
+    <text x="102" y="332" fill="white" font-size="20" font-weight="800">INK</text><text x="102" y="366" fill="#C6D1EE" font-size="17">#101933</text>
+    <rect x="282" y="294" width="184" height="122" rx="18" fill="#15956D"/>
+    <text x="302" y="332" fill="white" font-size="20" font-weight="800">BRAND</text><text x="302" y="366" fill="#E1F8EF" font-size="17">#15956D</text>
+    <rect x="482" y="294" width="184" height="122" rx="18" fill="#4CCB9D"/>
+    <text x="502" y="332" fill="white" font-size="20" font-weight="800">ACTIVE</text><text x="502" y="366" fill="#F7FFFB" font-size="17">#4CCB9D</text>
+    <rect x="682" y="294" width="184" height="122" rx="18" fill="#F0FAF6" stroke="#D6EEE3" stroke-width="2"/>
+    <text x="702" y="332" fill="#101933" font-size="20" font-weight="800">CANVAS</text><text x="702" y="366" fill="#5B756A" font-size="17">#F0FAF6</text>
+    <rect x="882" y="294" width="184" height="122" rx="18" fill="#FFFFFF" stroke="#D6EEE3" stroke-width="2"/>
+    <text x="902" y="332" fill="#101933" font-size="20" font-weight="800">SURFACE</text><text x="902" y="366" fill="#5B756A" font-size="17">#FFFFFF</text>
+  </g>
+
+  <text x="82" y="484" fill="#15956D" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="800" letter-spacing="3">02 / TYPE SCALE</text>
+  <text x="82" y="548" fill="#101933" font-family="Inter, Arial, sans-serif" font-size="50" font-weight="800" letter-spacing="-2">Write. Capture. Organize.</text>
+  <text x="84" y="590" fill="#101933" font-family="Inter, Arial, sans-serif" font-size="27" font-weight="700">智能输入 · 轻松整理</text>
+  <text x="84" y="628" fill="#5B756A" font-family="Inter, Arial, sans-serif" font-size="18">Mobile titles / 28–32 · Body / 14–16 · Labels / 10–12</text>
+  <line x1="82" y1="662" x2="730" y2="662" stroke="#D6EEE3" stroke-width="2"/>
+  <text x="82" y="708" fill="#15956D" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="800" letter-spacing="3">03 / COMPONENT RHYTHM</text>
+  <rect x="82" y="734" width="250" height="72" rx="36" fill="#15956D"/><text x="145" y="778" fill="white" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800">Primary action</text>
+  <rect x="350" y="734" width="180" height="72" rx="18" fill="#F0FAF6"/><circle cx="388" cy="770" r="20" fill="#4CCB9D"/><text x="424" y="766" fill="#101933" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="800">Content card</text><text x="424" y="788" fill="#5B756A" font-family="Inter, Arial, sans-serif" font-size="13">soft surface</text>
+
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="840" y="270" fill="#15956D" font-size="15" font-weight="800" letter-spacing="3">04 / MOBILE RULES</text>
+    <rect x="840" y="294" width="478" height="512" rx="22" fill="#F5FCF8" stroke="#D6EEE3" stroke-width="2"/>
+    <text x="878" y="342" fill="#101933" font-size="20" font-weight="800">Frame</text><text x="1150" y="342" fill="#5B756A" font-size="19">430 × 932 px</text>
+    <line x1="878" y1="366" x2="1280" y2="366" stroke="#D6EEE3" stroke-width="2"/>
+    <text x="878" y="415" fill="#101933" font-size="20" font-weight="800">Status + top bar</text><text x="1150" y="415" fill="#5B756A" font-size="19">45 / 84 px</text>
+    <line x1="878" y1="439" x2="1280" y2="439" stroke="#D6EEE3" stroke-width="2"/>
+    <text x="878" y="488" fill="#101933" font-size="20" font-weight="800">Touch target</text><text x="1150" y="488" fill="#5B756A" font-size="19">36 / 42 px</text>
+    <line x1="878" y1="512" x2="1280" y2="512" stroke="#D6EEE3" stroke-width="2"/>
+    <text x="878" y="561" fill="#101933" font-size="20" font-weight="800">Spacing</text><text x="1150" y="561" fill="#5B756A" font-size="19">8 / 12 / 16 / 24</text>
+    <line x1="878" y1="585" x2="1280" y2="585" stroke="#D6EEE3" stroke-width="2"/>
+    <text x="878" y="634" fill="#101933" font-size="20" font-weight="800">Corner radius</text><text x="1150" y="634" fill="#5B756A" font-size="19">12 / 18 / 36</text>
+    <line x1="878" y1="658" x2="1280" y2="658" stroke="#D6EEE3" stroke-width="2"/>
+    <text x="878" y="707" fill="#101933" font-size="20" font-weight="800">Feedback</text><text x="1150" y="707" fill="#5B756A" font-size="19">state before action</text>
+    <text x="878" y="760" fill="#15956D" font-size="14" font-weight="800">Consistency across writing, scanning and planning.</text>
+  </g>
+</svg>

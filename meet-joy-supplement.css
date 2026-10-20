@@ -1,0 +1,51 @@
+/* Meet Joy — extended screen atlas */
+#joy-extended-screens {
+  --joy-ink: #4a3436;
+  --joy-muted: #92777a;
+  --joy-rose: #e87c91;
+  --joy-line: rgba(120, 78, 82, .16);
+  background: linear-gradient(180deg, #fffaf8 0%, #fff5f5 100%);
+  color: var(--joy-ink);
+  padding: clamp(72px, 10vw, 156px) 24px;
+}
+
+.joy-atlas { max-width: 1440px; margin: 0 auto; }
+.joy-atlas__intro { display: grid; grid-template-columns: minmax(0, .62fr) minmax(280px, 1fr); gap: 32px; align-items: end; border-top: 1px solid var(--joy-line); padding-top: 20px; margin-bottom: clamp(56px, 8vw, 112px); }
+.joy-atlas__eyebrow, .joy-atlas-section__index { color: var(--joy-rose); font-size: 11px; font-weight: 800; letter-spacing: .14em; }
+.joy-atlas__intro h2 { margin: 10px 0 0; max-width: 700px; font-size: clamp(44px, 6vw, 88px); font-weight: 750; line-height: .93; letter-spacing: -.075em; }
+.joy-atlas__intro p { margin: 0 0 4px; max-width: 430px; color: var(--joy-muted); font-size: 15px; line-height: 1.7; }
+.joy-atlas-section { border-top: 1px solid var(--joy-line); padding: clamp(44px, 7vw, 96px) 0; }
+.joy-atlas-section__head { display: grid; grid-template-columns: 125px minmax(0, 1fr); gap: 28px; margin-bottom: 36px; }
+.joy-atlas-section__title { display: flex; flex-wrap: wrap; align-items: baseline; gap: 10px 15px; }
+.joy-atlas-section h3 { margin: 0; font-size: clamp(31px, 4.2vw, 58px); font-weight: 720; letter-spacing: -.065em; line-height: .96; }
+.joy-atlas-section__title span { color: var(--joy-rose); font-size: 14px; font-weight: 700; }
+.joy-atlas-section__title p { width: 100%; margin: 4px 0 0; color: var(--joy-muted); font-size: 14px; }
+.joy-atlas-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 24px 18px; }
+.joy-atlas-card { position: relative; min-width: 0; padding: 0; border: 0; background: transparent; color: inherit; text-align: left; cursor: zoom-in; }
+.joy-atlas-card__frame { position: relative; overflow: hidden; aspect-ratio: 393 / 852; border: 1px solid rgba(146, 95, 103, .12); border-radius: 23px; background: #fff; box-shadow: 0 18px 36px rgba(118, 78, 82, .11); transition: transform .42s cubic-bezier(.2,.8,.2,1), box-shadow .42s ease; }
+.joy-atlas-card__frame::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, transparent 65%, rgba(55, 30, 33, .13)); opacity: 0; transition: opacity .32s ease; pointer-events: none; }
+.joy-atlas-card img { width: 100%; height: 100%; display: block; object-fit: cover; object-position: top center; transition: transform .7s cubic-bezier(.2,.8,.2,1); }
+.joy-atlas-card__meta { display: grid; grid-template-columns: 31px minmax(0, 1fr); column-gap: 8px; padding: 13px 3px 0; font-size: 12px; line-height: 1.25; }
+.joy-atlas-card__meta i { grid-row: span 2; color: var(--joy-rose); font-style: normal; font-weight: 800; }
+.joy-atlas-card__meta strong { overflow: hidden; font-weight: 750; text-overflow: ellipsis; white-space: nowrap; }
+.joy-atlas-card__meta em { margin-top: 3px; overflow: hidden; color: var(--joy-muted); font-size: 11px; font-style: normal; text-overflow: ellipsis; white-space: nowrap; }
+.joy-atlas-card__open { position: absolute; right: 12px; bottom: 54px; display: inline-flex; align-items: center; height: 32px; padding: 0 12px; border: 1px solid rgba(255,255,255,.55); border-radius: 999px; background: rgba(255,255,255,.58); backdrop-filter: blur(10px); color: #563d3f; font-size: 9px; font-weight: 800; letter-spacing: .07em; opacity: 0; transform: translateY(8px); transition: opacity .25s ease, transform .25s ease; }
+.joy-atlas-card:hover .joy-atlas-card__frame, .joy-atlas-card:focus-visible .joy-atlas-card__frame { transform: translateY(-8px); box-shadow: 0 26px 50px rgba(132, 74, 86, .2); }
+.joy-atlas-card:hover img, .joy-atlas-card:focus-visible img { transform: scale(1.035); }
+.joy-atlas-card:hover .joy-atlas-card__frame::after, .joy-atlas-card:focus-visible .joy-atlas-card__frame::after { opacity: 1; }
+.joy-atlas-card:hover .joy-atlas-card__open, .joy-atlas-card:focus-visible .joy-atlas-card__open { opacity: 1; transform: translateY(0); }
+.joy-atlas-card:focus-visible { outline: 2px solid var(--joy-rose); outline-offset: 6px; border-radius: 24px; }
+
+.joy-screen-modal[hidden] { display: none; }
+.joy-screen-modal { position: fixed; z-index: 10000; inset: 0; display: grid; place-items: center; padding: 22px; background: rgba(51, 32, 34, .7); backdrop-filter: blur(15px); }
+.joy-screen-modal__dialog { position: relative; display: flex; flex-direction: column; width: min(610px, 100%); max-height: calc(100vh - 44px); overflow: hidden; border-radius: 26px; background: #fffaf9; box-shadow: 0 30px 80px rgba(0,0,0,.35); }
+.joy-screen-modal__bar { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 14px 18px; border-bottom: 1px solid var(--joy-line); }
+.joy-screen-modal__title { min-width: 0; font-size: 13px; font-weight: 800; }
+.joy-screen-modal__caption { margin-left: 7px; color: var(--joy-muted); font-size: 12px; font-weight: 500; }
+.joy-screen-modal__close { width: 36px; height: 36px; flex: 0 0 auto; border: 0; border-radius: 50%; background: #f5e9e8; color: var(--joy-ink); font-size: 24px; line-height: 1; cursor: pointer; }
+.joy-screen-modal__content { overflow: auto; padding: 16px; background: #f6eeee; }
+.joy-screen-modal__content img { display: block; width: min(100%, 393px); height: auto; margin: 0 auto; border-radius: 18px; box-shadow: 0 12px 28px rgba(75,45,48,.16); }
+body.joy-modal-open { overflow: hidden; }
+
+@media (max-width: 900px) { .joy-atlas__intro { grid-template-columns: 1fr; } .joy-atlas-section__head { grid-template-columns: 1fr; gap: 16px; } .joy-atlas-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (max-width: 640px) { #joy-extended-screens { padding-inline: 16px; } .joy-atlas-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px 12px; } .joy-atlas-card__frame { border-radius: 16px; } .joy-atlas-card__open { display: none; } .joy-atlas__intro h2 { font-size: 46px; } }
