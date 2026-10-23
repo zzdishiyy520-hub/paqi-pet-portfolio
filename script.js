@@ -1,6 +1,26 @@
 const stage = document.querySelector('.card-stage');
 const cards = [...document.querySelectorAll('.work-card')];
 const cat = document.querySelector('.cat-wrap');
+const moreButton = document.querySelector('.more');
+const moreMenu = document.querySelector('.more-works-menu');
+
+if (moreButton && moreMenu) {
+  const setMoreMenu = (open) => {
+    moreMenu.classList.toggle('is-open', open);
+    moreMenu.setAttribute('aria-hidden', String(!open));
+    moreButton.setAttribute('aria-expanded', String(open));
+  };
+  moreButton.addEventListener('click', (event) => {
+    event.stopPropagation();
+    setMoreMenu(!moreMenu.classList.contains('is-open'));
+  });
+  document.addEventListener('click', (event) => {
+    if (!event.target.closest('.more-menu-wrap')) setMoreMenu(false);
+  });
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') setMoreMenu(false);
+  });
+}
 
 stage.addEventListener('pointermove', (event) => {
   const rect = stage.getBoundingClientRect();
